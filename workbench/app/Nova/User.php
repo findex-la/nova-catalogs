@@ -16,6 +16,7 @@ use Override;
 class User extends Resource
 {
     use PasswordValidationRules;
+    public static $displayInNavigation = false;
 
     /**
      * The model the resource corresponds to.

@@ -21,6 +21,7 @@ class Catalog extends Resource
     public static $model = Model::class;
 
     public static $title = 'name';
+    public static $displayInNavigation = false;
 
     public static $search = [
         'name',

@@ -1,5 +1,5 @@
 {
-  "name": "opscale-co/nova-catalogs",
+  "name": "findex-la/nova-catalogs",
   "description": "A simple repository for managing catalogs in your Nova app",
   "version": "1.2.0",
   "keywords": [
@@ -41,7 +41,8 @@
       "Opscale\\NovaCatalogs\\Tests\\": "tests",
       "Workbench\\App\\": "workbench/app/",
       "Workbench\\Database\\Factories\\": "workbench/database/factories/",
-      "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
+      "Workbench\\Database\\Seeders\\": "workbench/database/seeders/",
+      "Database\\Seeders\\": "database/seeders/"
     }
   },
   "extra": {
