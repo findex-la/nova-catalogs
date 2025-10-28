@@ -15,7 +15,7 @@ return new class extends Migration
             $table->string('key');
             $table->json('metadata')->nullable();
 
-            $table->unique(['catalog_id', 'key']);
+           // $table->unique(['catalog_id', 'key']);
         });
     }
 

@@ -2,6 +2,7 @@
 
 namespace Workbench\Database\Seeders;
 
+use Database\Seeders\CatalogSeeder;
 use Illuminate\Database\Seeder;
 use Workbench\App\Models\User;
 
@@ -12,6 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        // Run migrations first
+        $this->call(CatalogSeeder::class);
+
         // Create admin user
         User::factory()->create([
             'name' => 'Admin User',
