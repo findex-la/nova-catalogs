@@ -14,8 +14,8 @@ class ToolServiceProvider extends NovaPackageServiceProvider
     {
         $package
             ->name('nova-catalogs')
-            ->discoversMigrations()
-            ->runsMigrations()
+            //->discoversMigrations()
+            //->runsMigrations()
             ->hasResources([
                 Catalog::class,
                 CatalogItem::class,
